@@ -18,7 +18,7 @@ pipeline {
         }
         stage("Second step") {
             steps {
-                sh 'ssh root@ub1 \'uptime\''
+                sh 'ssh max@192.168.18.135 \'uptime\''
             }
         }
     }
