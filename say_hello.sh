@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello DEPLOY"
+HOSTNAME=`hostname`
+echo "Hello $HOSTANME , running on AWS"
