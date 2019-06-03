@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello from shell script AND webhook :) configured this time on github"
+HOSTNAME=`hostname`
+echo "Hello $HOSTANME , running on AWS"
