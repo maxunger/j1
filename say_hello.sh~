@@ -1,3 +1,3 @@
 #!/bin/bash
 HOSTNAME=`hostname`
-echo "Hello $HOSTANME , running on AWS"
+echo "Hello $HOSTNAME , running on AWS"
