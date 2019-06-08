@@ -11,14 +11,14 @@ pipeline {
         timestamps()
     }
     stages {
-        stage("First step") {
+        stage("First step PIPE2") {
             steps {
-                sh 'echo \'step1\''
+                sh 'echo \'step1\' PIPE2'
             }
         }
-        stage("Second step") {
+        stage("Second step PIPE2") {
             steps {
-                sh 'echo \'step2\''
+                sh 'echo \'step2\' PIPE2'
             }
         }
     }
