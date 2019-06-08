@@ -13,12 +13,12 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                sh 'ssh max@192.168.18.135 \'hostname\''
+                sh 'echo \'step1\''
             }
         }
         stage("Second step") {
             steps {
-                sh 'ssh max@192.168.18.135 \'uptime\''
+                sh 'echo \'step2\''
             }
         }
     }
